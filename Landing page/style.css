@@ -1,0 +1,118 @@
+  .computer {
+    position: absolute;
+    z-index: 1;
+  }
+
+  p {
+    color: black;
+  }
+
+  .rectangle1 {
+    position: absolute;
+    margin-left: 15%;
+    margin-top: -7%;
+    align-self: right;
+  }
+/* nav bar starts */
+  .bg-prime {
+    background-color: #65B5FD;
+  }
+
+
+  .text-prime {
+    color: #65B5FD
+  }
+
+  .dropdown-item {
+    transition: 300ms ease-out 100ms;
+  }
+
+  .dropdown-item:hover {
+    background-color: #65B5FD;
+    color: white;
+    border-radius: 5px;
+  }
+
+
+  .logout:hover {
+    background-color: rgb(255, 59, 59);
+    color: white;
+    border-radius: 3px;
+    padding-bottom: 2px;
+  }
+/* nav bar ends */
+
+  /* welcom page button */
+  .button-52 {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+  .button-52:after {
+    content: "";
+    background-color: #65B5FD;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+  }
+
+  .button-52:hover:after {
+    top: 0px;
+    left: 0px;
+  }
+
+  @media (min-width: 768px) {
+    .button-52 {
+      padding: 13px 50px 13px;
+    }
+  }
+
+  /* welcome page button ends */
+
+  /*About us text and image starts */
+  .aboutus {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+
+    align-items: center;
+  }
+
+  .aboutusimg {
+    height: 320px;
+
+  }
+
+  .aboutustext {
+    line-height: 2rem;
+    font-size: large;
+
+  }
+
+  /*About us text and image ends */
+
+  /*Counter icon starts*/
+  .countericon {
+    color: #65B5FD;
+  }
+  /*Counter icon ends*/
+
+  /*featured course starts*/
+  .box {
+    box-shadow: 0 0 15px -4px;
+  }
+  /*featured course ends*/
